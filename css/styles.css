@@ -100,7 +100,7 @@ img {
 }
 .pages-link.current::after {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
   content: "";
   width: 48px;
@@ -140,7 +140,8 @@ img {
     url(/images/bg-hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1440px auto;
+  background-size: cover;
+  max-width: 100%;
   padding: 188px 0;
 }
 .hero-container {
